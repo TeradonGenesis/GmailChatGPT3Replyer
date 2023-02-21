@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "Gmail GPT3 Replyer",
+    "version": "1.0.0",
+    "description": "Create reply for the email chain",
+  
+    "content_scripts": [
+      {
+        "matches": [
+          "https://mail.google.com/*"
+        ],
+        "js": [
+          "bundle.js"
+        ]
+      }
+    ],
+  
+    "permissions": [
+      "activeTab",
+      "storage"
+    ]
+  }
+  
