@@ -1,6 +1,6 @@
 const fetch = require("node-fetch");
 const API_ENDPOINT = 'https://api.openai.com/v1/completions';
-const API_KEY = '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';
+const API_KEY = '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';
 
 async function generateResponse(prompt) {
     const response = await fetch(API_ENDPOINT, {
